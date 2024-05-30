@@ -1,7 +1,7 @@
 (supertux-sprite
   (action
     (name "normal")
-    (hitbox 0 30 32 32)
-    (images "rock.png")
+    (hitbox 0 30 64 64)
+    (images "rock-b.png")
   )
 )
