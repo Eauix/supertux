@@ -251,7 +251,7 @@
     (icon "images/engine/editor/pneumaticplatform.png"))
   (object
     (class "rock")
-    (icon "images/objects/rock/rock.png"))
+    (icon "images/objects/rock/rock-editor.png"))
   (object
     (class "rublight")
     (icon "images/objects/rublight/rublight-0.png"))
@@ -338,7 +338,9 @@
     (icon "images/engine/editor/textarray.png"))
  )
 
- (layers
+ (objectgroup
+  (name (_"Sector"))
+  (worldmap #f)
   (object
     (class "tilemap")
     (icon "images/engine/editor/tilemap.png"))
@@ -404,9 +406,6 @@
   (object
     (class "decal")
     (icon "images/engine/editor/decal.png"))
- )
-
- (layers-worldmap
   (object
     (class "tilemap")
     (icon "images/engine/editor/tilemap.png"))
