@@ -4815,7 +4815,6 @@
       (mask "*0*00*0*")
     )
   )
-  
   (autotileset
     (name "jrock_a")
     (default 7200)
