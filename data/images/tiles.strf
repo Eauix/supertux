@@ -25,13 +25,12 @@
   ;; No group ids are currently skipped! Delete this line if any are and replace it with said ids...
 
   (tilegroup
-    (name (_ "Snow :D"))
+    (name (_ "Snow"))
     (tiles
       7    8    9    202
       13   14   15   204
       10   11   12   206
       16   17   18   205
-	  1 0 0 0
 
       5238 5239 5240 5241
       5244 5245 0    5247
@@ -998,6 +997,7 @@
       7208 7209 7212 7213
       7210 7211 7215 7216
       7218 7219 7214 7217
+      
       0    7220 7221 0
       7226 7227 7228 7229
       0    0    7224 7225
