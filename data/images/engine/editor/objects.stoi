@@ -251,7 +251,7 @@
     (icon "images/engine/editor/pneumaticplatform.png"))
   (object
     (class "rock")
-    (icon "images/objects/rock/rock-editor.png"))
+    (icon "images/objects/rock/rock.png"))
   (object
     (class "rublight")
     (icon "images/objects/rublight/rublight-0.png"))

@@ -2,6 +2,6 @@
   (action
     (name "normal")
     (hitbox 0 0 16 16)
-    (images "rock-c.png")
+    (images "rockblock-0.5x0.5.png")
   )
 )
