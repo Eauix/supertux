@@ -432,6 +432,10 @@ GameSession::draw(Compositor& compositor)
 {
   auto& context = compositor.make_context();
 
+  if (m_game_pause) {
+    context.set_time_offset(0.0f);
+  }
+
   m_currentsector->draw(context);
   drawstatus(context);
 
@@ -705,6 +709,7 @@ GameSession::respawn(const std::string& sector, const std::string& spawnpoint)
   m_newsector = sector;
   m_newspawnpoint = spawnpoint;
   m_spawn_with_invincibility = false;
+  m_spawn_fade_type = ScreenFade::FadeType::NONE;
 }
 
 void
